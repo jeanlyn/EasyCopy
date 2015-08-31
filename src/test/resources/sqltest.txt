@@ -1,0 +1,7 @@
+--testsadasd
+select * from
+src1
+where a = "b";
+select * from
+src2 --table a
+where b = "a"
