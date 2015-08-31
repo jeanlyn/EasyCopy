@@ -25,14 +25,21 @@ I will figure out the main configurations:
 
 ###For the `tableinfoGetter.sh`
 `SQL_FILE`: The sql file which used to get informations
+
 `OUT_PUTFILE`:Save the data after we running the jar. It contains the table name and the paths separated by comma
+
 `CREATE_TABLE_SQL`: The DDL got by 
+
 `OLD_NS`: Namespace of the production environment 
+
 `NEW_NS`: Namespace of the test environment
+
 `SPARK_HOME`: We need spark to help us to get the informations, so we need to install on the client node of the production environment
 
 ### For the `cpdata.sh`
+
 `DEST_IP`: The ip of test environment active namenode
+
 `HADOOP_HOME`: We need to run `distcp` to copy datas, hence we need a hadoop client by config this environment variable.
 
 
